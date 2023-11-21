@@ -10,6 +10,8 @@ from .dataset_wrappers import ConcatDataset, RepeatDataset
 from .gta import GTADataset
 from .synthia import SynthiaDataset
 from .uda_dataset import UDADataset
+from .weeds import WeedsDataset
+from .prospero import ProsperoDataset
 
 __all__ = [
     'CustomDataset',
@@ -25,4 +27,6 @@ __all__ = [
     'UDADataset',
     'ACDCDataset',
     'DarkZurichDataset',
+    'WeedsDataset',
+    'ProsperoDataset'
 ]

@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "hrda"
+version = "0.0.0"
+description = "Library with implementations of methods for image domain adaptation."
+authors = []
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+click = "*"
+cityscapesscripts = "*"
+cycler = "*"
+gdown = "*"
+humanfriendly = "*"
+kiwisolver = "*"
+kornia = "*"
+matplotlib = "*"
+numpy = "*"
+opencv-python = "*"
+pandas = "*"
+Pillow = "*"
+prettytable = "*"
+pyparsing = "*"
+pytz = "*"
+PyYAML = "*"
+scipy = "*"
+seaborn = "*"
+timm = "*"
+torch = "*"
+torchvision = "*"
+tqdm = "*"
+typing-extensions = "*"
+wcwidth = "*"
+yapf = "*"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pre_commit = "*"
+
+[tool.poetry.scripts]
+hrda = "hrda.cli:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
